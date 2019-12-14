@@ -10,26 +10,6 @@
            fetch="https://github.com"
            revision="lineage-17.0" />
 
-  <remove-project name="device/generic/mini-emulator-arm64" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="device/generic/mini-emulator-x86_64" />
-  <remove-project name="device/generic/qemu" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
-
-  <remove-project name="platform/prebuilts/android-emulator" />
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
-  <remove-project name="platform/prebuilts/go/darwin-x86"/>
-  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-  <!-- <remove-project name="platform/prebuilts/gradle-plugin" /> -->
-  <remove-project name="platform/prebuilts/libs/libedit" />
-
   <remove-project name="platform/sdk" />
 
  <!-- Samsung MSM8916 Common Repos -->
@@ -59,5 +39,5 @@
  <!-- Galaxy Grand Prime/Fortuna -->
   <project path="device/samsung/gprimelte-common" name="Galaxy-MSM8916/android_device_samsung_gprimelte-common" groups="device" remote="Q-for-GP"/>
   <project path="device/samsung/fortuna3g" name="Galaxy-MSM8916/android_device_samsung_fortuna3g" groups="device" remote="Q-for-GP"/>
-  <project path="device/samsung/fortunave3g" name="Galaxy-MSM8916/android_device_samsung_fortunave3g" groups="device" remote="Q-for-GP"/>
+<!--   <project path="device/samsung/fortunave3g" name="Galaxy-MSM8916/android_device_samsung_fortunave3g" groups="device" remote="Q-for-GP"/> -->
 </manifest>
