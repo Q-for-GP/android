@@ -7,7 +7,7 @@
            revision="lineage-16.0" />
            
    <remote  name="Q-for-GP"
-           fetch="https://github.com"
+           fetch="https://github.com/Q-for-GP"
            revision="lineage-17.0" />
 
   <remove-project name="platform/sdk" />
