@@ -6,7 +6,7 @@
            review="review.msm8916.com"
            revision="lineage-16.0" />
            
-   <remote  name="Gumball1506"
+   <remote  name="Q-for-GP"
            fetch="https://github.com"
            revision="lineage-17.0" />
 
@@ -40,7 +40,7 @@
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
 
  <!-- Common Samsung MSM8916 Kernel -->
-  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Gumball1506"/>
+  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Q-for-GP"/>
 
  <!-- Vendor Trees (for all devices) -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
@@ -57,7 +57,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github" revision="master"/>
 
  <!-- Galaxy Grand Prime/Fortuna -->
-  <project path="device/samsung/gprimelte-common" name="Galaxy-MSM8916/android_device_samsung_gprimelte-common" groups="device" remote="Gumball1506"/>
-  <project path="device/samsung/fortuna3g" name="Galaxy-MSM8916/android_device_samsung_fortuna3g" groups="device" remote="Gumball1506"/>
-  <project path="device/samsung/fortunave3g" name="Galaxy-MSM8916/android_device_samsung_fortunave3g" groups="device" remote="Gumball1506"/>
+  <project path="device/samsung/gprimelte-common" name="Galaxy-MSM8916/android_device_samsung_gprimelte-common" groups="device" remote="Q-for-GP"/>
+  <project path="device/samsung/fortuna3g" name="Galaxy-MSM8916/android_device_samsung_fortuna3g" groups="device" remote="Q-for-GP"/>
+  <project path="device/samsung/fortunave3g" name="Galaxy-MSM8916/android_device_samsung_fortunave3g" groups="device" remote="Q-for-GP"/>
 </manifest>
